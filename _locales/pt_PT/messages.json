@@ -1,0 +1,13 @@
+{
+    "appDescription": 
+        {
+            "message": "Pesquisa de Ficheiros",
+            "description": "Descrição da aplicação."
+        },
+    "search": { "message": "Pesquisar" },
+    "download": { "message": "Baixar" },
+    "typeAll": { "message": "Tudo" },
+    "typeAudio": { "message": "Música" },
+    "typeFiles": { "message": "Ficheiros" },
+    "typeVideo": { "message": "Vídeos" }
+}

@@ -1,0 +1,39 @@
+.combobox {
+        display: inline-block;
+        background: -webkit-linear-gradient(top, #6E7681, #525A65);
+        border-radius: 7px;
+}
+
+.combobox ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.combobox ul li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+}
+
+.combobox a {
+        display: inline-block;
+        padding: 0px 5px;
+        margin: 4px 8px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 5px;
+        border: 1px solid transparent;
+}
+
+.combobox a:hover {
+        border: 1px solid #454545;
+}
+
+.combobox a.selected {
+        background: #474F5A;
+        border-left: 1px solid #383838;
+        border-top: 1px solid #444;
+        border-right: 1px solid #888;
+        border-bottom: 1px solid #999;
+}

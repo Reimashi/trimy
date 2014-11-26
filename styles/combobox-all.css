@@ -1,0 +1,41 @@
+.combobox {
+        display: inline-block;
+        background: #fff;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+}
+
+.combobox ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+.combobox ul li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+}
+
+.combobox ul li#cb_value {
+    display: none;
+}
+
+.combobox a {
+        display: inline-block;
+        padding: 2px 6px;
+        margin: 2px 4px;
+        text-decoration: none;
+        color: #666;
+        border-radius: 5px;
+        border: 1px solid transparent;
+}
+
+.combobox a:hover {
+        background: #ddd;
+}
+
+.combobox a.selected {
+        background: #aaa;
+        color: #fff;
+}

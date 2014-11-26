@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="content-language" content="es-ES"/>
+        <meta name="copyright" content="2013&copy; Aitor González Fernández"/>
+        <meta name="description" content="Buscador de archivos"/>
+        <link rel="stylesheet" href="styles/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/app-all.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/combobox-all.css" type="text/css"/>
+        <script type="text/javascript" src="lib/js/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/js/ComboBox.js"></script>
+        <script type="text/javascript" src="lib/js/TriMYSearcher.js"></script>
+        <script type="text/javascript" src="lib/js/TriMYWebHandler.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <title>TriMY - Buscador de Archivos</title>
+    </head>
+    <body>
+        <div id="header">
+            <a id="logo" target="_blank" title="TriMy (alpha)" href="http://sites.google.com/site/trimydev"></a>
+            <div class="header-content">
+                <div id="search_form_box">
+                    <form id="search_form">
+                        <input type="text" id="search_needle"/>
+                        <input type="submit" id="search_start" i18n_title="search" title="Buscar"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="header-submenu">
+            <div class="submenu-container">
+                <div id="search_type" class="combobox">
+                    <ul>
+                        <li id="cb_value">all</li>
+                        <li><a href="#cb_all" class="selected" i18n="typeAll">Todo</a></li>
+                        <li><a href="#cb_audio" i18n="typeAudio">Musica</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="search_box">
+        </div>
+		<div id="search_in_progress">
+			<img id="search_in_progress_img" src="lib/img/progress_bar.gif">
+		</div>
+    </body>
+</html>

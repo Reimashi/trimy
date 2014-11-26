@@ -1,0 +1,13 @@
+{
+    "appDescription": 
+        {
+            "message": "Buscador de Archivos",
+            "description": "Descripción de la aplicación."
+        },
+    "search": { "message": "Buscar" },
+    "download": { "message": "Descargar" },
+    "typeAll": { "message": "Todo" },
+    "typeAudio": { "message": "Música" },
+    "typeFiles": { "message": "Archivos" },
+    "typeVideo": { "message": "Videos" }
+}

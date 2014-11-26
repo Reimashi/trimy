@@ -1,0 +1,13 @@
+{
+    "appDescription": 
+        {
+            "message": "File Searcher",
+            "description": "App description."
+        },
+    "search": { "message": "Search" },
+    "download": { "message": "Download" },
+    "typeAll": { "message": "All" },
+    "typeAudio": { "message": "Music" },
+    "typeFiles": { "message": "Files" },
+    "typeVideo": { "message": "Video" }
+}

@@ -1,4 +1,10 @@
-trimy
+Trimy
 =====
 
-Extension for Google Chrome to search and download music.
+Google Chrome extension to search and download music.
+
+Providers
+---------
+
+- Goear (http://goear.com) (Outdated API)
+- Mp3Skull (http://mp3skull.com/) (Outdated API)
